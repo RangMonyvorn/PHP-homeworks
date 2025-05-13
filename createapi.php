@@ -1,8 +1,8 @@
 <?php 
-   $host = "localhost";
-   $username = "root";
-   $password = "";
-   $databasename = "leaningcreatetable";
+$host = "fdb1028.awardspace.net";
+$username = "4633334_crudproject";
+$password = "Monyvorn168@@";
+$databasename = "4633334_crudproject";
    
    // Create connection
    $conn = new mysqli($host, $username, $password, $databasename);
