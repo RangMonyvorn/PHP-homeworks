@@ -125,9 +125,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class="container">
         <h2>Enter Your Details</h2>
 
-        <?php if($message): ?>
-            <div class="message"><?php echo $message; ?></div>
-        <?php endif; ?>
+        
 
         <form action="" method="post">
             <label for="name">Name</label>
