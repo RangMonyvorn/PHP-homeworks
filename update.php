@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         echo "Record updated successfully";
         $stmt->close();
         $conn->close();
-        header("Location: get.php");
+        header("Location: index.php");
         exit;
     } else {
         echo "Error updating record: " . $stmt->error;
@@ -133,7 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         <div class="actions">
             <input type="submit" value="Update">
-            <a href="get.php" class="button">Cancel</a>
+            <a href="index.php" class="button">Cancel</a>
         </div>
     </form>
 </div>

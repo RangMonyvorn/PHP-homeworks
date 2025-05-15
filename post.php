@@ -142,7 +142,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <input type="submit" value="Submit" name="submit">
 
 
-            <a href="get.php">Back to list </a>
+            <a href="index.php">Back to list </a>
         </form>
     </div>
 

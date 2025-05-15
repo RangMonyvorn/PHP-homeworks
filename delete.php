@@ -18,7 +18,7 @@ if(isset($_GET['id'])){
     $sql = "DELETE FROM newtable WHERE id = $id";
     if($conn->query($sql) === TRUE){
         echo "record deleted successfully";
-        header("Location: get.php");
+        header("Location: index.php");
         exit();
     }
     else {
@@ -26,7 +26,7 @@ if(isset($_GET['id'])){
     }
 }
 else {
-    header("Location: get.php");
+    header("Location: index.php");
     exit();
 }
 
